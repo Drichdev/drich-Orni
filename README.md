@@ -4,6 +4,10 @@ Drich-Orni is a minimal, fast chat interface for talking to open-source LLMs, wi
 
 Live demo: [QR Code Studio](https://drichdev.github.io/drich-Orni/)
 
+### Preview
+
+![Project Preview](orni.gif)
+
 ## Why this architecture?
 
 Free Hugging Face Spaces have limited RAM and no GPU. Serving both a heavy HTML/Gradio UI *and* a large language model from the same container quickly hits resource limits. Orni splits the two concerns:
