@@ -2,6 +2,8 @@
 
 Drich-Orni is a minimal, fast chat interface for talking to open-source LLMs, with a decoupled architecture: a static frontend hosted on **GitHub Pages** and a Flask inference API hosted on a **Hugging Face Space** (Docker, free tier).
 
+Live demo: [QR Code Studio](https://drichdev.github.io/drich-Orni/)
+
 ## Why this architecture?
 
 Free Hugging Face Spaces have limited RAM and no GPU. Serving both a heavy HTML/Gradio UI *and* a large language model from the same container quickly hits resource limits. Orni splits the two concerns:
