@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Orni</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <button id="clear">+</button>
+  <h2>Drich-Orni</h2>
+</header>
+
+<select id="model-select">
+  <option value="qwen">Qwen2.5-3B</option>
+  <option value="llama">Llama-3.2-3B</option>
+  <option value="smol">SmolLM2-1.7B</option>
+</select>
+
+<div id="chat">
+  <div class="assistant">Hello! How can I help you today?</div>
+</div>
+
+<form id="chat-form">
+  <input id="message" placeholder="Ask anything..." autocomplete="off">
+  <button id="send" type="submit" aria-label="Envoyer">
+    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M5 12H19M19 12L13 6M19 12L13 18" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </button>
+</form>
+
+<script src="script.js"></script>
+</body>
+</html>
