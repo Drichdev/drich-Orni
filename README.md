@@ -17,6 +17,8 @@ Free Hugging Face Spaces have limited RAM and no GPU. Serving both a heavy HTML/
 
 This keeps the Space focused purely on inference, and lets the UI be swapped, themed, or redeployed independently.
 
+![View](demo.png)
+
 ## Features
 
 - Clean chat UI: user messages in a gray bubble, assistant replies as plain text — no clutter, no avatars.
